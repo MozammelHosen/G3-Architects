@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.container {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 80px;
+}
+
+.nav-tittle a {
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #131313;
+}
+
+.nav-iteams {
+    display: flex;
+    list-style: none;
+}
+
+.nav-iteams li a {
+    color: #424242;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Banner section start */
+
+.banner-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.banner-container h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner-container p {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 30px 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner-button button {
+    color: #ffff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 15px 25px;
+
+}
+
+.image-container img {
+    /* padding: 50px;
+    margin: 0 auto;
+    height: 500px; */
+}
+
+.image {
+    padding: 50px;
+    margin: 0 auto;
+    height: 500px;
+    width: 90%;
+
+}
+
+.images-container {
+    display: flex;
+    width: 100%;
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 5px;
+    padding: 50px;
+}
+
+.images {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.images-tittle {
+    margin-top: 250px;
+    padding: 43px;
+}
+
+.images-tittle h1 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quick-list1 {
+    color: #727272;
+}
+
+.quick-list2 {
+    color: #131313;
+}
+
+.quick-list3 {
+    color: #FF900E;
+}
+
+.images-tittle p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 20px 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.images-tittle button {
+    color: #ffff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 15px 25px;
+}
