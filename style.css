@@ -433,10 +433,8 @@ body {
 }
 
 .web-image img {
-    display: block;
     height: 400px;
     width: 400px;
-    border-radius: 40px;
     padding: 50px;
 }
 
@@ -508,9 +506,9 @@ footer p {
     .images-grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
+        /* gap: 5px; */
         /* padding: 5px; */
-        margin: 0 15px;
+        margin: 0 0px;
     }
 
     .images-tittle {
@@ -532,8 +530,8 @@ footer p {
 
     .features-image img {
         padding: 0;
-        height: 500px;
-        width: 400px;
+        height: 400px;
+        width: 300px;
         margin-top: 20px;
     }
 
@@ -547,17 +545,17 @@ footer p {
 
     .features-first-tittle h1 {
         font-size: 35px;
-        width: 400px;
+        width: 300px;
     }
 
     .features-first-tittle p {
         font-size: 15px;
-        width: 400px;
+        width: 300px;
     }
 
     .features-second-tittle {
 
-        width: 350px;
+        width: 300px;
         height: 120px;
         padding: 30px;
         margin: 15px 0;
@@ -565,7 +563,7 @@ footer p {
 
     .features-three-tittle {
 
-        width: 350px;
+        width: 300px;
         height: 120px;
         padding: 30px;
         margin: 15px 0;
@@ -573,7 +571,7 @@ footer p {
 
     .features-four-tittle {
 
-        width: 350px;
+        width: 300px;
         height: 120px;
         padding: 30px;
         margin: 15px 0;
@@ -581,7 +579,7 @@ footer p {
 
     .features-five-tittle {
 
-        width: 350px;
+        width: 300px;
         height: 120px;
         padding: 30px;
         margin: 15px 0;
@@ -634,6 +632,12 @@ footer p {
         flex-direction: column-reverse;
         align-items: center;
         /* padding: 50px; */
+    }
+
+    .web-image img {
+        height: 300px;
+        width: 300px;
+        padding: 50px;
     }
 
     /* footer start */
