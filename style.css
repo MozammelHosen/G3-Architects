@@ -408,7 +408,7 @@ footer p {
 /* footer end */
 /* media Query Mobile device */
 
-@media screen and (min-width: 576px) and (max-width:768) {
+@media screen and (max-width: 576px) {
 
     /* navbar start*/
     .nav-container {
