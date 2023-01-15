@@ -340,6 +340,11 @@ body {
     text-align: center;
 }
 
+.awards-container:hover {
+    background-color: #0c1c42;
+    transform: rotate(180deg);
+}
+
 .awards-container h3 {
     color: #424242;
     font-size: 25px;
@@ -506,9 +511,10 @@ footer p {
     .images-grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* gap: 5px; */
-        /* padding: 5px; */
-        margin: 0 0px;
+        padding: 5px auto;
+        margin: 0 5px;
+        /* margin-right: auto;
+        padding-right: auto; */
     }
 
     .images-tittle {
@@ -529,9 +535,9 @@ footer p {
     }
 
     .features-image img {
-        padding: 0;
+        padding: 0 auto;
         height: 400px;
-        width: 300px;
+        width: 350px;
         margin-top: 20px;
     }
 
@@ -627,6 +633,7 @@ footer p {
     }
 
     /* sponspors section end */
+    /* web-section start */
     .web-container {
         display: flex;
         flex-direction: column-reverse;
@@ -640,6 +647,7 @@ footer p {
         padding: 50px;
     }
 
+    /* web section end */
     /* footer start */
     footer {
         padding: 0 30px;
