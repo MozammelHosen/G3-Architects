@@ -336,13 +336,13 @@ body {
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 30px;
-    /* transform: rotate(90deg); */
     text-align: center;
 }
 
 .awards-container:hover {
-    background-color: #0c1c42;
-    transform: rotate(180deg);
+    border: none;
+    background-color: violet;
+    transform: rotate(45deg) scale(0.75);
 }
 
 .awards-container h3 {
