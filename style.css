@@ -5,12 +5,17 @@
     padding: 0;
 }
 
-body {}
+body {
+    /* max-width: 1180px;
+    margin: auto; */
+}
 
+/* Header section start */
 .container {
     background: rgba(255, 144, 14, 0.1);
 }
 
+/* navabr section start */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -41,12 +46,11 @@ body {}
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* navbar section end */
 /* Banner section start */
-
 .banner-container {
     text-align: center;
-    margin: 50px 50px;
-
+    padding: 50px 50px;
 }
 
 .banner-container h1 {
@@ -76,17 +80,11 @@ body {}
 }
 
 .image-container img {
-    /* padding: 50px;
-    margin: 0 auto;
-    height: 500px; */
-}
-
-.image {
-    padding: 50px;
-    margin: 0 auto;
-    height: 500px;
-    width: 90%;
-    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    border-radius: 7px;
 }
 
 /* grid layout image */
@@ -153,8 +151,7 @@ body {}
 .features-container {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
-    padding: 0 50px;
+    padding: 0 30px;
 }
 
 .features-tittle {
@@ -182,7 +179,7 @@ body {}
 .features-second-tittle {
     background-color: #ffff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    width: 500px;
+    width: 450px;
     height: 120px;
     padding: 30px;
 }
@@ -205,7 +202,7 @@ body {}
 .features-three-tittle {
     background-color: #ffff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    width: 500px;
+    width: 450px;
     height: 120px;
     padding: 30px;
     margin: 15px 0;
@@ -229,7 +226,7 @@ body {}
 .features-four-tittle {
     background-color: #ffff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    width: 500px;
+    width: 450px;
     height: 120px;
     padding: 30px;
 }
@@ -252,7 +249,7 @@ body {}
 .features-five-tittle {
     background-color: #ffff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    width: 500px;
+    width: 450px;
     height: 120px;
     padding: 30px;
     margin: 15px 0;
@@ -273,9 +270,8 @@ body {}
     font-family: 'Work Sans', sans-serif;
 }
 
-.features-image {
-    width: 50%;
-    padding: 50px;
+.features-image img {
+    padding: 0 0px;
     margin: 0 auto;
 }
 
@@ -283,7 +279,7 @@ body {}
     display: flex;
     justify-content: center;
     padding-left: 250px;
-    margin-top: -150px;
+    margin-top: -120px;
 }
 
 .features-btn button {
@@ -302,8 +298,9 @@ body {}
     font-size: 15px;
 }
 
+/* some facts section */
 .some-facts-container {
-    margin: 100px 30px;
+    margin: 80px 50px;
 }
 
 .some-facts-container h1 {
@@ -388,7 +385,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #FFF4E7;
-    margin: 0 50px;
+    margin: 0 30px;
     text-align: center;
     height: 80px;
 }
@@ -403,12 +400,14 @@ footer p {
 /* media Query */
 
 @media screen and (max-width: 576px) {
+
+    /* navbar start*/
     .nav-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 100px;
-        padding: 20px 10px;
+        padding: 20px 50px;
     }
 
     .nav-tittle a {
@@ -424,14 +423,15 @@ footer p {
         font-size: 15px;
     }
 
+    /* navbar end */
+    /* banner section */
     .banner-container h1 {
         font-size: 30px;
 
     }
 
     .banner-container p {
-        font-size: 15px;
-
+        font-size: 12px;
     }
 
     /* grid layout */
@@ -473,11 +473,49 @@ footer p {
 
     .features-first-tittle h1 {
         font-size: 35px;
+        width: 400px;
+    }
 
+    .features-first-tittle p {
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .features-second-tittle {
+
+        width: 350px;
+        height: 120px;
+        padding: 30px;
+        margin: 15px 0;
+    }
+
+    .features-three-tittle {
+
+        width: 350px;
+        height: 120px;
+        padding: 30px;
+        margin: 15px 0;
+    }
+
+    .features-four-tittle {
+
+        width: 350px;
+        height: 120px;
+        padding: 30px;
+        margin: 15px 0;
+    }
+
+    .features-five-tittle {
+
+        width: 350px;
+        height: 120px;
+        padding: 30px;
+        margin: 15px 0;
     }
 
     .features-btn {
         margin-top: 40px;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -487,25 +525,22 @@ footer p {
     }
 
     .some-facts-container p {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .icons-container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 50px;
         margin: 50px 0;
-    }
-
-    .awards-container {
-        gap: 40px;
     }
 
     /* sponspors */
     .sponspors-tittle p {
         font-size: 15px;
         padding: 0 50px;
-
+        margin: 30px 0;
     }
 
     .sponsor-images {
