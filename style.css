@@ -147,7 +147,7 @@ body {
     padding: 15px 25px;
 }
 
-/* Features you will love & enjoy */
+/* Features you will love & enjoy start*/
 .features-container {
     display: flex;
     justify-content: space-between;
@@ -300,7 +300,9 @@ body {
     font-size: 15px;
 }
 
-/* some facts section */
+/* Features you will love & enjoy start*/
+
+/* some facts section start*/
 .some-facts-container {
     margin: 80px 50px;
 }
@@ -353,8 +355,10 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* sponspors */
-.sponspors-container {}
+/* some facts section start*/
+
+/* sponspors section start*/
+/* .sponspors-container {} */
 
 .sponspors-tittle {
     text-align: center;
@@ -382,6 +386,8 @@ body {
     padding: 30px;
 }
 
+/* sponspors section end*/
+/* footer */
 footer {
     display: flex;
     justify-content: center;
@@ -399,9 +405,10 @@ footer p {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* media Query */
+/* footer end */
+/* media Query Mobile device */
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) and (max-width:768) {
 
     /* navbar start*/
     .nav-container {
@@ -436,7 +443,8 @@ footer p {
         font-size: 12px;
     }
 
-    /* grid layout */
+    /*  banner end */
+    /* grid layout image section end */
     .images-container {
         display: flex;
         flex-direction: column;
@@ -447,19 +455,18 @@ footer p {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 5px;
-        /* padding: 50%; */
     }
 
     .images-tittle {
         margin-top: 15px;
-        /* padding: 43px; */
     }
 
     .images-tittle p {
         font-size: 15px;
     }
 
-    /* features you will section */
+    /* grid layout image section end */
+    /* features you will section start */
     .features-container {
         display: flex;
         flex-wrap: wrap;
@@ -531,6 +538,8 @@ footer p {
         align-items: center;
     }
 
+    /* features you will section end  */
+    /* some-facts-section start */
     .some-facts-container {
         margin: 50px 50px;
     }
@@ -547,7 +556,8 @@ footer p {
         margin: 50px 0;
     }
 
-    /* sponspors */
+    /* some-facts-section end */
+    /* sponspors section start*/
     .sponspors-tittle p {
         font-size: 15px;
         padding: 0 50px;
@@ -562,6 +572,8 @@ footer p {
         padding: 20px;
     }
 
+    /* sponspors section end */
+    /* footer start */
     footer {
         padding: 0 30px;
         height: 80px;
@@ -571,4 +583,6 @@ footer p {
     footer p {
         font-size: 15px;
     }
+
+    /* footer end */
 }
